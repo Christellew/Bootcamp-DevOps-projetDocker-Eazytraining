@@ -76,7 +76,7 @@ Now it is time to explain you each file's role:
 
 
 
-## Build and test (7 points)
+## Build and test 
 
 POZOS will give you information to build the API container
 
@@ -121,9 +121,14 @@ Run this command to make sure that the API correctly responding (take a screensh
 
 `curl -u toto:python -X GET http://<host IP>:<API exposed port>/pozos/api/v1.0/get_student_ages`
 
-**Congratulation! Now you are ready for the next step (docker-compose.yml)**
 
-## Infrastructure As Code (5 points)
+
+
+
+
+
+
+## Infrastructure As Code 
 
 After testing your API image, you need to put all together and deploy it, using docker-compose.
 
@@ -145,6 +150,10 @@ Delete your previous created container
 
 Run your docker-compose.yml
 
+
+![Capture d’écran du 2024-01-05 00-10-31-1](https://github.com/Christellew/Bootcamp-DevOps-projetDocker-Eazytraining/assets/42740640/b2dce895-cb44-4207-a313-349ae42128aa)
+
+
 Finally, reach your website and click on the bouton "List Student"
 
 **If the list of the student appears, you are successfully dockerizing the POZOS application! Congratulation (make a screenshot)**
@@ -162,19 +171,3 @@ Or you can use [Portus](http://port.us.org/ "Portus") to run both
 
 Don't forget to push your image on your private registry and show them in your delivery.
 
-## Delivery (4 points)
-
-Your delivery must be zip named firstname.zip (replace firstname by your own) that contain:
-
-- A doc or PDF file with your screenshots and explanations.
-- Configuration files used to realize the graded exercise (docker-compose.yml and Dockerfile).
-
-Your delivery will be evaluated on:
-
-- Explanations quality
-- Screenshots quality (relevance, visibility)
-- Presentation quality
-
-Send your delivery at ***eazytrainingfr@gmail.com*** and we will provide you the link of the solution.
-
-![good luck](https://user-images.githubusercontent.com/18481009/84582398-cad38100-adeb-11ea-95e3-2a9d4c0d5437.gif)
