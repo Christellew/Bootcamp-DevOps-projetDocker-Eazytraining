@@ -171,3 +171,6 @@ Or you can use [Portus](http://port.us.org/ "Portus") to run both
 
 Don't forget to push your image on your private registry and show them in your delivery.
 
+![Capture d’écran du 2024-01-05 00-01-54](https://github.com/Christellew/Bootcamp-DevOps-projetDocker-Eazytraining/assets/42740640/31f15d07-874a-49a6-9206-c115b83c8171)
+
+
