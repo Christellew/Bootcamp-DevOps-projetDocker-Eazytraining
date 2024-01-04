@@ -115,6 +115,10 @@ When container start, it must run the student_age.py (copied at step 4), so it s
 
 `CMD [ "python", "./student_age.py" ]`
 
+![Capture d’écran du 2024-01-05 00-38-55](https://github.com/Christellew/Bootcamp-DevOps-projetDocker-Eazytraining/assets/42740640/14a0d912-289a-47f3-b404-eb410317466d)
+
+
+
 Build your image and try to run it (don't forget to mount *student_age.json* file at */data/student_age.json* in the container), check logs and verify that the container is listening and is  ready to answer
 
 Run this command to make sure that the API correctly responding (take a screenshot for delivery purpose)
@@ -158,7 +162,7 @@ Finally, reach your website and click on the bouton "List Student"
 
 **If the list of the student appears, you are successfully dockerizing the POZOS application! Congratulation (make a screenshot)**
 
-## Docker Registry (4 points)
+## Docker Registry 
 
 POZOS need you to deploy a private registry and store the built images
 
