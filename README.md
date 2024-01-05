@@ -126,8 +126,7 @@ Run this command to make sure that the API correctly responding (take a screensh
 `curl -u toto:python -X GET http://<host IP>:<API exposed port>/pozos/api/v1.0/get_student_ages`
 
 
-
-
+![Capture d’écran du 2024-01-05 01-05-42](https://github.com/Christellew/Bootcamp-DevOps-projetDocker-Eazytraining/assets/42740640/57d90a0b-f1a9-4bfc-bd68-9e6ee190f5d5)
 
 
 
